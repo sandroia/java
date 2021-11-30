@@ -6,11 +6,11 @@ float salfun;
 float quantsalmi;
 Scanner a = new Scanner(System.in);
 System.out.println("Digite o valor do salario minimo");
-float salmi = a.nextFloat();
+ salmi = a.nextFloat();
 System.out.println("Digite o valor do salario do funcionario");
-float salfun = a.nextFloat();
+ salfun = a.nextFloat();
 System.out.println("Calcule a quantidade de salario minimo");
-float quantsalmi = salfun - salmi;
+ quantsalmi = salfun / salmi;
 System.out.println("A quantidade de salario minimo e=" +quantsalmi);
 }
 }
