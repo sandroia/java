@@ -7,12 +7,12 @@ float valoraum;
 float novosal;
 Scanner n = new Scanner(System.in);
 System.out.println("Digite o salario do funcionario e o percentual aumento");
-float salfun = n.nextFloat();
-float percau = n.nextFloat ();
+ salfun = n.nextFloat();
+ percau = n.nextFloat ();
 System.out.println("Calcule o valor do aumento");
-float valoraum = salfun + percau;
 System.out.println("Calcule o novo salario");
-float novosal = novosal * valoraum;
+  valoraum=(salfun*prcau)/100;
+ novosal = salfun+valoraum ;
 System.out.println("O valor do aumento e="+valoraum);
 System.out.println("O novo salario e =" +novosal);
 }
