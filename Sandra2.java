@@ -6,11 +6,11 @@ int n2;
 int sub;
 Scanner x = new Scanner(System.in);
 System.out.println("Digite o primero numero");
-int n1 = x.nextInt();
+ n1 = x.nextInt();
 System.out.println("Digite o segundo numero");
-int n2 = x.nextInt();
+ n2 = x.nextInt();
 System.out.println("Calcule os numeros");
-int sub = n1 - n2;
+ sub = n1 - n2;
 System.out.println("A subtraçao e=" +sub);
 }
 }
