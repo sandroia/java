@@ -6,11 +6,11 @@ int n1;
 int e;
 Scanner s = new Scanner(System.in);
 System.out.println("Digite os numeros");
-//Os numeros devem ser maiores que 0;
-int n = s.nextInt();
-int n1 = s.nextInt();
+
+ n = s.nextInt();
+ n1 = s.nextInt();
 System.out.println("Calcule os numeros");
-int e = n ^ n1;
+ e = Math.pow(n,n1);
 System.out.println("O resultado e="+e);
 }
 }
