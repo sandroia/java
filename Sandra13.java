@@ -7,13 +7,13 @@ int idd;
 int idade;
 Scanner a = new Scanner(System.in);
 System.out.println("Digite o ano de nascimento e a idade actual");
-int AnoDeNasc = a.nextInt();
-int AnoActual = a.nextInt();
+ AnoDeNasc = a.nextInt();
+ AnoActual = a.nextInt();
 System.out.println("Calcule a idade da pessoa");
-int idd = AnoActual - AnoDeNasc;
+ idd = AnoActual - AnoDeNasc;
 System.out.println("A idade dessa pessoa e=" +idd);
 System.out.println("Quantos ano ela tera em 2050?");
-int idade = idd + (2050 - AnoActual);
+ idade =  (2050 - AnoDeNasc);
 System.out.println("A sua idade sera =" +idade);
 }
 }
