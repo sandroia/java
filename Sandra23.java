@@ -7,13 +7,12 @@ float pesoeng;
 float pesoemagr;
 Scanner b = new Scanner(System.in);
 System.out.println("Digite o peso dessa pessoa");
-float engor = b.nextFloat();
-float emagr = b.nextFloat();
+ engor = b.nextFloat();
 System.out.println("Calcule o peso se a pessoa emgordar");
-float pesoeng = (engor + 15%);
+ pesoeng = (engor + (0.15*engor));
 System.out.println("Calcule o peso se a pessoa emagrecer");
-float pesoemagr = (emagr - 20%); 
+ pesoemagr =(engor - (0.20*engor));
 System.out.println(" Se a pessoa engordar o seu peso sera =" +pesoeng);
-System.out.println(" Se a pessoa emagrecer o seu peso sera = +pesoemagr");
+System.out.println(" Se a pessoa emagrecer o seu peso sera =" +pesoemagr);
 }
 }
