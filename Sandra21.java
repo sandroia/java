@@ -5,9 +5,9 @@ float salbf;
 float salrec;
 Scanner b = new Scanner(System.in);
 System.out.println("Digite o salario base do funcionario");
-float salbf = b.nextFloat();
+ salbf = b.nextFloat();
 System.out.println("Calcule o salario a receber");
-float salrec = (salbf + 5%) + (salbf - 7%); 
+ salrec = (salbf + (salbf*0.5)) + (salbf -(salbf*0.7)); 
 System.out.println("O salario que o funcionario recebe e="+salrec);
 }
 }
