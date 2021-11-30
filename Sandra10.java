@@ -7,11 +7,11 @@ float altura;
 float A;
 Scanner s = new Scanner(System.in);
 System.out.println("Digite os valores");
-int basemaior = s.nextInt();
-int basemenor = s.nextInt();
-float altura = s.nextFloat();
+ basemaior = s.nextInt();
+ basemenor = s.nextInt();
+ altura = s.nextFloat();
 System.out.println("Calcule a area do trapesio");
-float A = ((basemaior + basemenor) * altura) ;
+ A = ((basemaior + basemenor) * altura) ;
 System.out.println("A area do trapesio e=" +A);
 }
 }
